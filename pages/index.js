@@ -13,7 +13,7 @@ function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.mainheader}>Whats do you wanna Do?</h1>
+        <h1 className={styles.mainheader}>What do you Need?</h1>
         
 
        <Hero/>

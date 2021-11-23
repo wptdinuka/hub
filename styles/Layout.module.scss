@@ -2,15 +2,13 @@
 //////////////////////////////////////////////////////////////////////////////////////
 
 .header {
+  margin-top: 30px;
   .title a {
     color: #0070f3;
     text-decoration: none;
-  }
-
-  .title a:hover,
-  .title a:focus,
-  .title a:active {
-    text-decoration: underline;
+    :hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -171,6 +169,69 @@
     border-color: red;
   }
 }
+
+//Crypto
+//////////////////////////////////////////////////////////////////////////////////////
+
+.main {
+  .cryptolist {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
+
+    .cryptocard {
+      margin: 1rem;
+      padding: 1.5rem;
+      text-align: center;
+      color: inherit;
+      text-decoration: none;
+      border: 1px solid #eaeaea;
+      border-radius: 10px;
+      transition: color 0.15s ease, border-color 0.15s ease;
+      max-width: 250px;
+      background: rgba(white, 0.8);
+
+      h2 {
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      h3 {
+        font-size: 13px;
+        font-weight: 700;
+      }
+    }
+
+    :hover {
+      color: #0070f3;
+      border-color: #0070f3;
+    }
+  }
+
+  .topgainers {
+    background: url("/images/crypto.jpg");
+    background-size: contain;
+    padding: 20px 30px;
+    margin-bottom: 100px;
+
+    h2 {
+      background: rgba(white, 0.8);
+    }
+  }
+
+  .toplosers {
+    background: url("/images/crypto2.jpg");
+    background-size: contain;
+    padding: 20px 30px;
+    margin-bottom: 100px;
+
+    h2 {
+      background: rgba(white, 0.6);
+    }
+  }
+}
+
 //Section
 //////////////////////////////////////////////////////////////////////////////////////
 

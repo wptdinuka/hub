@@ -2,7 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Layout.module.scss'
 
-function Crypto() {
+function Crypto( {crypto} ) {
+
+  
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -13,16 +16,71 @@ function Crypto() {
 
       <main className={styles.main}>
         <h1 className={styles.mainheader}>Crypto</h1>
+
+        <div className={styles.topgainers}>
+
+          <h2>Top Gainers</h2>
+
+        <ul className={styles.cryptolist}>
+        {crypto["Top Gainers"].map((item,id)  => (
+          <li key={id} className={styles.cryptocard} >
+          <h2> Coin: {item.Coin} </h2> 
+          <h3> Price: {item.Price} </h3>
+          <h3> Rank: {item.Rank} </h3>
+          <h3> Rise 24hr:{item["Rise 24hr"]} </h3>
+          <h3> Symbol: {item.Symbol} </h3>
+          <h3> Volume 24hr: {item["Volume 24hr"]} </h3>
+          </li>
+        ))}
+        </ul>
+        </div>
+
+        <div className={styles.toplosers}>
+
+        <h2>Top Losers</h2>
+
+        <ul className={styles.cryptolist}>
+        {crypto["Top Losers"].map((item,id)  => (
+          <li key={id} className={styles.cryptocard} >
+          <h2> Coin: {item.Coin} </h2> 
+          <h3> Price: {item.Price} </h3>
+          <h3> Rank: {item.Rank} </h3>
+          <h3> Rise 24hr:{item["Rise 24hr"]} </h3>
+          <h3> Symbol: {item.Symbol} </h3>
+          <h3> Volume 24hr:{item["Volume 24hr"]} </h3>
+          </li>
+        ))}
+        </ul>
+        </div>
         
 
       
-        
       </main>
 
       
     </div>
   )
 }
+
+
+
+export const getStaticProps = async () => {
+  const res = await fetch("https://crypto-update-live.p.rapidapi.com/top-gainers-losers", {
+    "method": "GET",
+    "headers": {
+      "x-rapidapi-host": "crypto-update-live.p.rapidapi.com",
+      "x-rapidapi-key": "2ddc4c8cb4msh0c9e366b10869f2p1df196jsn9f56ebef905e"
+    }
+  })
+  
+  const crypto = await res.json()
+  return {
+    props: {
+      crypto
+    }
+  }
+}
+
 
 
 export default Crypto
