@@ -17,11 +17,11 @@
 .navbarcontainer {
   button {
     position: fixed;
-    top: 80px;
-    right: 100px;
+    top: 75px;
+    left: 80px;
     width: 100px;
     height: 80px;
-    z-index: 999;
+    z-index: 2;
   }
 
   .navbarlist {

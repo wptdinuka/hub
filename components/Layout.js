@@ -7,7 +7,7 @@ const Layout = ({children}) => {
         <div className={styles.container}>
             <div className={styles.header}>
             <h1 className={styles.title}>
-          daily.Utility<a>.[HUB]</a>
+          daily.Utility<a href="/">.[HUB]</a>
         </h1>
          
              </div>
