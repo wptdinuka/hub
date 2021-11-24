@@ -20,8 +20,8 @@ const Hero = () => {
           <Image 
             src="/images/main1.jpg"
             priority
-            width="400px"
-            height="400px"
+            width="250px"
+            height="250px"
             layout="fixed" 
             alt="" />
             </a>
@@ -33,8 +33,8 @@ const Hero = () => {
           <a>
           <Image 
             src="/images/main2.jpg" priority
-            width="400px"
-            height="400px"
+            width="250px"
+            height="250px"
             layout="fixed" 
             alt="" />
             </a>
@@ -46,8 +46,8 @@ const Hero = () => {
           <a>
           <Image 
             src="/images/main3.jpg" priority
-            width="400px"
-            height="400px"
+            width="250px"
+            height="250px"
             layout="fixed" 
             alt="" />
             </a>
@@ -59,8 +59,8 @@ const Hero = () => {
           <a>
           <Image 
             src="/images/main4.jpg" priority
-            width="400px"
-            height="400px"
+            width="250px"
+            height="250px"
             layout="fixed" 
             alt="" />
             </a>
@@ -72,8 +72,8 @@ const Hero = () => {
           <a>
           <Image 
             src="/images/main5.jpg" priority
-            width="400px"
-            height="400px"
+            width="250px"
+            height="250px"
             layout="fixed" 
             alt="" />
             </a>
@@ -85,8 +85,8 @@ const Hero = () => {
           <a>
           <Image 
             src="/images/main6.jpg" priority
-            width="400px"
-            height="400px"
+            width="250px"
+            height="250px"
             layout="fixed" 
             alt="" />
             </a>
@@ -98,8 +98,8 @@ const Hero = () => {
           <a>
           <Image 
             src="/images/main7.jpg" priority
-            width="400px"
-            height="400px"
+            width="250px"
+            height="250px"
             layout="fixed" 
             alt="" />
             </a>

@@ -273,8 +273,8 @@
 
 .musiccontainer {
   img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
   .musiclist {
@@ -286,12 +286,58 @@
     margin-top: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 60px;
 
     .card {
       text-align: center;
       overflow: hidden;
       background: rgba(white, 0.8);
+      max-width: 200px;
     }
+
+    h2,
+    h3,
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+//Meme
+//////////////////////////////////////////////////////////////////////////////////////
+
+.memecontainer {
+  background: url("/images/dog.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  h1 {
+    width: 120%;
+  }
+}
+
+.memelist {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 120%;
+  margin-top: 50px;
+  background: rgba(grey, 0.3);
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    margin: 2rem;
+    padding: 3rem;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
   }
 }
 
