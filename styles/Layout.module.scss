@@ -341,6 +341,63 @@
   }
 }
 
+//Currency
+//////////////////////////////////////////////////////////////////////////////////////
+.currencymain {
+  width: 100%;
+  margin-left: 220px;
+
+  h1 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .converter {
+    width: 80%;
+    height: 600px;
+    margin-top: 50px;
+    padding-top: 120px;
+    padding-left: 200px;
+    background: url("/images/money.jpg");
+    background-size: contain;
+
+    .currencyinput {
+      border: 2px solid black;
+      border-radius: 5px;
+      width: 400px;
+      height: 80px;
+      font-size: 50px;
+      padding: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      text-align: center;
+      background: rgba(white, 0.8);
+    }
+
+    .currencyselect {
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 80px;
+      height: 40px;
+      margin-left: 10px;
+      font-size: 25px;
+      background: rgba(white, 0.8);
+    }
+
+    .equalmark {
+      width: 45px;
+      height: 30px;
+      font-size: 25px;
+      font-weight: 800;
+      border: 1px solid black;
+      background: rgba(white, 0.8);
+      text-align: center;
+      padding-bottom: 40px;
+      margin-left: 175px;
+    }
+  }
+}
+
 //Section
 //////////////////////////////////////////////////////////////////////////////////////
 

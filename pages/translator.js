@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Layout.module.scss'
+import Translateform from '../components/Translate'
 
 function Translator() {
   return (
@@ -15,7 +16,7 @@ function Translator() {
         <h1 className={styles.mainheader}>Translator</h1>
         
 
-      
+     <Translateform/>
         
       </main>
 

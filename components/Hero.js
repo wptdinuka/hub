@@ -105,6 +105,19 @@ const Hero = () => {
             </a>
             </Link>
           </button>
+
+          <button  className={styles.herobutton}>
+          <Link href="/currency"  >
+          <a>
+          <Image 
+            src="/images/main8.jpg" priority
+            width="250px"
+            height="250px"
+            layout="fixed" 
+            alt="" />
+            </a>
+            </Link>
+          </button>
          
       </div>
         

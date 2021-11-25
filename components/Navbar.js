@@ -99,6 +99,12 @@ export const Navbar = () => {
             Daily Memes
             </Link>
         </li>
+        <li className={styles.navbaritem} type="button" 
+            data-bs-dismiss="offcanvas" aria-label="Close">
+        <Link href="/currency"  >
+           Currency Converter
+            </Link>
+        </li>
         
     </ul>
 
