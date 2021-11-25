@@ -85,6 +85,13 @@ export const Navbar = () => {
         
         <li className={styles.navbaritem} type="button" 
             data-bs-dismiss="offcanvas" aria-label="Close">
+        <Link href="/notes"  >
+            Notes
+            </Link>
+        </li>
+
+        <li className={styles.navbaritem} type="button" 
+            data-bs-dismiss="offcanvas" aria-label="Close">
         <Link href="/memes"  >
             Daily Memes
             </Link>
@@ -93,6 +100,12 @@ export const Navbar = () => {
             data-bs-dismiss="offcanvas" aria-label="Close">
         <Link href="/currency"  >
            Currency Converter
+            </Link>
+        </li>
+        <li className={styles.navbaritem} type="button" 
+            data-bs-dismiss="offcanvas" aria-label="Close">
+        <Link href="/translator"  >
+            Translator
             </Link>
         </li>
         
@@ -107,20 +120,3 @@ export const Navbar = () => {
 export default Navbar
 
 
-
-/*
-<li className={styles.navbaritem} type="button" 
-            data-bs-dismiss="offcanvas" aria-label="Close">
-        <Link href="/notes"  >
-            Notes
-            </Link>
-        </li>
-
-        <li className={styles.navbaritem} type="button" 
-            data-bs-dismiss="offcanvas" aria-label="Close">
-        <Link href="/translator"  >
-            Translator
-            </Link>
-        </li>
-
-*/

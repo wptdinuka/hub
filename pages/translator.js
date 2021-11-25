@@ -66,10 +66,19 @@ const translateText = () => {
       <main className={styles.main}>
         <h1 className={styles.mainheader}>Translator</h1>
         
-
+       <Translateform/>
       </main>
 
+      <video 
+      src="video/uc.mp4"  
+      height="150px"
+      width="200px"
+      autoPlay
+      muted={true}  
+      loop={true}
+      id="myVideo" >
       
+      </video>
     </div>
   )
 }

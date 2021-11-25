@@ -19,9 +19,16 @@ function Notes() {
 
 
         <>
-       
+        <video 
+      src="video/uc.mp4"  
+      height="150px"
+      width="200px"
+      autoPlay
+      muted={true}  
+      loop={true}
+      id="myVideo" />
         </>
-        
+  
 
       
         
