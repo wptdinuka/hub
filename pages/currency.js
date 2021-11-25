@@ -51,7 +51,7 @@ function Currency() {
 
 
     useEffect( () => {
-        if (fromCurrency != null && toCurrency != null) {
+        if (fromCurrency !== undefined && toCurrency !== undefined) {
             fetch(`https://fixer-fixer-currency-v1.p.rapidapi.com/latest?base=${fromCurrency}&symbols=${toCurrency}`, {
                 "method": "GET",
                 "headers": {

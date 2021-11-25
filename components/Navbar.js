@@ -63,12 +63,7 @@ export const Navbar = () => {
             Weather Updates
             </Link>
         </li>
-        <li className={styles.navbaritem} type="button" 
-            data-bs-dismiss="offcanvas" aria-label="Close">
-        <Link href="/translator"  >
-            Translator
-            </Link>
-        </li>
+        
         <li className={styles.navbaritem} type="button" 
             data-bs-dismiss="offcanvas" aria-label="Close">
         <Link href="/crypto"  >
@@ -87,12 +82,7 @@ export const Navbar = () => {
             Music
             </Link>
         </li>
-        <li className={styles.navbaritem} type="button" 
-            data-bs-dismiss="offcanvas" aria-label="Close">
-        <Link href="/notes"  >
-            Notes
-            </Link>
-        </li>
+        
         <li className={styles.navbaritem} type="button" 
             data-bs-dismiss="offcanvas" aria-label="Close">
         <Link href="/memes"  >
@@ -115,3 +105,22 @@ export const Navbar = () => {
     )
 }
 export default Navbar
+
+
+
+/*
+<li className={styles.navbaritem} type="button" 
+            data-bs-dismiss="offcanvas" aria-label="Close">
+        <Link href="/notes"  >
+            Notes
+            </Link>
+        </li>
+
+        <li className={styles.navbaritem} type="button" 
+            data-bs-dismiss="offcanvas" aria-label="Close">
+        <Link href="/translator"  >
+            Translator
+            </Link>
+        </li>
+
+*/

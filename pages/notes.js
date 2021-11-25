@@ -3,6 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Layout.module.scss'
 
 function Notes() {
+  
+
+
   return (
     <div className={styles.container}>
       <Head>
@@ -13,6 +16,11 @@ function Notes() {
 
       <main className={styles.main}>
         <h1 className={styles.mainheader}>Notes</h1>
+
+
+        <>
+       
+        </>
         
 
       

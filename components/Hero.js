@@ -28,18 +28,7 @@ const Hero = () => {
             </Link>
           </button>
 
-          <button  className={styles.herobutton}>
-          <Link href="/translator"  >
-          <a>
-          <Image 
-            src="/images/main2.jpg" priority
-            width="250px"
-            height="250px"
-            layout="fixed" 
-            alt="" />
-            </a>
-            </Link>
-          </button>
+          
 
           <button  className={styles.herobutton}>
           <Link href="/crypto"  >
@@ -80,18 +69,7 @@ const Hero = () => {
             </Link>
           </button>
 
-          <button  className={styles.herobutton}>
-          <Link href="/notes"  >
-          <a>
-          <Image 
-            src="/images/main6.jpg" priority
-            width="250px"
-            height="250px"
-            layout="fixed" 
-            alt="" />
-            </a>
-            </Link>
-          </button>
+          
 
           <button  className={styles.herobutton}>
           <Link href="/memes"  >
@@ -128,3 +106,43 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+<button  className={styles.herobutton}>
+          <Link href="/translator"  >
+          <a>
+          <Image 
+            src="/images/main2.jpg" priority
+            width="250px"
+            height="250px"
+            layout="fixed" 
+            alt="" />
+            </a>
+            </Link>
+          </button>
+
+<button  className={styles.herobutton}>
+          <Link href="/notes"  >
+          <a>
+          <Image 
+            src="/images/main6.jpg" priority
+            width="250px"
+            height="250px"
+            layout="fixed" 
+            alt="" />
+            </a>
+            </Link>
+          </button>
+
+          */

@@ -17,9 +17,9 @@ function Currencyrow(props) {
         
         <div>
             <input className={styles.currencyinput} type='number' value={amount} onChange={onChangeAmount} />
-            <select className={styles.currencyselect} value={selectedCurrency} onChange={onChangeCurrency} >
+            <select className={styles.currencyselect}  value={selectedCurrency} onChange={onChangeCurrency} >
                 {currencyOptions.map(option => (
-                    <option key={option} value={option}> {option}</option>
+                    <option type="string" value={option} key={option} > {option}</option>
 
                 ))}
                 
