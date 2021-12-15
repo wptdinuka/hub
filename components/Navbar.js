@@ -85,7 +85,7 @@ export const Navbar = () => {
         
         <li className={styles.navbaritem} type="button" 
             data-bs-dismiss="offcanvas" aria-label="Close">
-        <Link href="/notes"  >
+        <Link href="https://notes-app-ten-psi.vercel.app/" target="blank"  >
             Notes
             </Link>
         </li>
