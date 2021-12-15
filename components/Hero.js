@@ -83,7 +83,7 @@ const Hero = () => {
           </button>
 
           <button  className={styles.herobutton}>
-          <Link href="/notes"  >
+          <Link href="https://notes-app-ten-psi.vercel.app/" target="blank" >
           <a>
           <Image 
             src="/images/main6.jpg" priority
