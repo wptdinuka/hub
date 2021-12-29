@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       
-      <main className='container'>
+      
       <Layout>
   <Component {...pageProps} />
   </Layout>
-      </main>
+     
     </>
   )
 }
